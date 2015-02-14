@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.mywednesdayfix.app" version="0.17.0" versionCode="1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.mywednesdayfix.app" version="0.17.0" versionCode="1">
   <name>MyWednesdayFix</name>
   <description>For comic book junkies.</description>
   <author href="http://mywednesdayfix.com" email="app@mywednesdayfix.com">Noah Cooper</author>
   <gap:platform name="ios" />
   <gap:platform name="android" />
-  <gap:plugin name="com.phonegap.plugin.statusbar" version="1.0.1" />
+  <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
   <preference name="permissions" value="none" />
   <preference name="DisallowOverscroll" value="true" />
-  <preference name="StatusBarStyle" value="lightcontent" />
+  <feature name="Geolocation">
+    <param name="ios-package" value="CDVLocation" />
+  </feature>
+  <feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+  </feature>
   <icon src="images/icon.png" />
   <icon src="images/icon-57.png" gap:platform="ios" width="57" height="57" />
   <icon src="images/icon-72.png" gap:platform="ios" width="72" height="72" />
