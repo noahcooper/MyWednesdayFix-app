@@ -5,7 +5,6 @@
   <author href="http://mywednesdayfix.com" email="app@mywednesdayfix.com">Noah Cooper</author>
   <gap:platform name="ios" />
   <gap:platform name="android" />
-  <gap:plugin name="org.apache.cordova.device" />
   <gap:plugin name="org.apache.cordova.geolocation" />
   <preference name="permissions" value="none" />
   <preference name="deployment-target" value="7.0" />
@@ -13,12 +12,6 @@
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
   <preference name="DisallowOverscroll" value="true" />
-  <feature name="Device">
-    <param name="ios-package" value="CDVDevice" />
-  </feature>
-  <feature name="Device">
-    <param name="android-package" value="org.apache.cordova.device.Device" />
-  </feature>
   <feature name="Geolocation">
     <param name="ios-package" value="CDVLocation" />
   </feature>
