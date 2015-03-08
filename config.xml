@@ -10,6 +10,7 @@
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
   <gap:plugin name="org.apache.cordova.geolocation" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" />
   <icon src="icon.png" />
   
   <!-- ios -->
