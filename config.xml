@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.mywednesdayfix.app" version="0.19.4" versionCode="1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.mywednesdayfix.app" version="0.19.5" versionCode="1">
   <!-- app info -->
   <name>MyWednesdayFix</name>
   <description>For comic book junkies.</description>
   <author href="http://mywednesdayfix.com" email="app@mywednesdayfix.com">Noah Cooper</author>
   
   <!-- global -->
+  <access origin="*" />
   <preference name="permissions" value="none" />
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
